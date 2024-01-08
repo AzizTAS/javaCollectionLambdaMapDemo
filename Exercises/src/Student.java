@@ -1,7 +1,7 @@
 
 import java.time.LocalDate;
 
-public class Student implements IStudent {
+public abstract class Student implements IStudent {
 	protected int no;
 	protected String name;
 	protected int year;
